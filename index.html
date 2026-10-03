@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aryan Mathur | Portfolio</title>
+  <meta name="description" content="Aryan Mathur - Rutgers University Finance student portfolio" />
+  <style>
+    :root {
+      --bg: #f7f7f5;
+      --card: #ffffff;
+      --text: #1d1d1f;
+      --muted: #666;
+      --border: #e6e6e6;
+      --accent: #1f4b99;
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 72px 20px 56px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      max-width: 760px;
+      margin: 14px auto 0;
+      color: #d1d5db;
+      font-size: 1.15rem;
+    }
+
+    nav {
+      margin-top: 28px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+
+    section {
+      margin-bottom: 52px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 18px;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    .statement {
+      font-size: 1.2rem;
+      max-width: 850px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 9px 14px;
+      font-size: 0.95rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+
+    .card .subtitle {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-bottom: 12px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 9px 14px;
+      border-radius: 8px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.92rem;
+    }
+
+    .button:hover {
+      opacity: 0.9;
+    }
+
+    .leadership-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 14px;
+    }
+
+    .leadership-item h3 {
+      margin: 0 0 5px;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .contact-links a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact-links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px 20px;
+      background: #111827;
+      color: #cbd5e1;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.25rem;
+      }
+
+      header {
+        padding-top: 52px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 6px 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aryan Mathur</h1>
+    <p>Rutgers University Finance student with experience in investment banking, financial analysis, valuation, business strategy, and leadership.</p>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p class="statement">
+        I am a Finance student at Rutgers University–New Brunswick with experience across investment banking business development, private company valuation, FP&amp;A, business communications, and data visualization.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span class="skill">Microsoft Excel</span>
+        <span class="skill">Financial Statement Analysis</span>
+        <span class="skill">Financial Modeling</span>
+        <span class="skill">DCF Valuation</span>
+        <span class="skill">Ratio Analysis</span>
+        <span class="skill">Peer Benchmarking</span>
+        <span class="skill">Canva</span>
+        <span class="skill">Flourish</span>
+        <span class="skill">Data Visualization</span>
+        <span class="skill">Business Communications</span>
+        <span class="skill">Business Development</span>
+        <span class="skill">Leadership</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>AV Division Valuation &amp; Financial Model</h3>
+          <div class="subtitle">Attronica FP&amp;A and Private Company Valuation Externship</div>
+          <p>
+            Built a financial model translating growth targets into revenue, working capital, and monthly cash flows. Conducted ratio analysis and peer benchmarking, then created a DCF valuation and sensitivity analysis and presented a four-page recommendation.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Interactive Business Data Visualization</h3>
+          <div class="subtitle">Canva Data Visualization &amp; AI Design Externship</div>
+          <p>
+            Developed visual storytelling strategies to translate business scenarios into clear visual narratives. Used Canva Pro and Flourish to create interactive data visualizations designed to improve presentation clarity and audience understanding.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>TheRealSportsOracle</h3>
+          <div class="subtitle">Independent Sports Media Project</div>
+          <p>
+            Built and managed a sports social media page covering the NFL and NBA, growing the community to more than 500 followers. Produced over 200 pieces of content and generated more than 200,000 views through graphic design, video editing, marketing tactics, and social media analytics.
+          </p>
+          <a class="button" href="https://www.instagram.com/therealsportsoracle/" target="_blank" rel="noopener noreferrer">View Project</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="leadership">
+      <h2>Leadership</h2>
+
+      <div class="leadership-item">
+        <h3>New Jersey Youth and Government — State Chair</h3>
+        <p>
+          Presided over the legislative process for more than 300 student delegates across New Jersey and mentored approximately 60 delegates through bill writing, debate, and parliamentary procedure.
+        </p>
+      </div>
+
+      <div class="leadership-item">
+        <h3>Monroe Township High School Marching Band — Drum Major</h3>
+        <p>
+          Directed and conducted a 100+ member marching band, led rehearsals and performances, and served as a liaison between members and staff.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-links">
+        <a href="mailto:aryan.mat21@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/aryan-mathur-b1945438a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/Aryan_bot21" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.instagram.com/therealsportsoracle/" target="_blank" rel="noopener noreferrer">TheRealSportsOracle</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Aryan Mathur
+  </footer>
+
+</body>
+</html>
